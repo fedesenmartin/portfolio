@@ -8,16 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Fede Senmartin </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple">Fede Senmartin</span> from <span className="purple">Buenos Aires, Argentina</span>.
             <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            With over 10 years in the software development industry, I specialize in delivering high-quality, performance-driven solutions. My expertise spans a wide range of languages, frameworks, and infrastructure knowledge, making me adaptable and driven by a commitment to excellence.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Outside of work, I’m passionate about staying active through sports, sharing insights and experiences through blogging, and exploring new places while traveling. I find inspiration in connecting with diverse cultures and people who share these interests.
           </p>
           <ul>
             <li className="about-activity">
@@ -32,9 +28,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Innovation distinguishes between a leader and a follower."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Steve Jobs</footer>
         </blockquote>
       </Card.Body>
     </Card>

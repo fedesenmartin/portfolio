@@ -23,7 +23,7 @@ function Home2() {
   <br />
   <br />I am highly proficient in 
   <i>
-    <b className="purple">Java, Kotlin, Swift, and Objective-C,</b>
+    <b className="purple"> Java, Kotlin, Swift, and Objective-C </b>
   </i> 
   with extensive knowledge across languages such as
   <i>
@@ -33,7 +33,7 @@ function Home2() {
   <br />
   My areas of expertise span a wide range of software development practices, including 
   <i>
-    <b className="purple">CI/CD, automation, and infrastructure management.</b>
+    <b className="purple"> CI/CD, automation, and infrastructure management. </b>
   </i> 
   I am passionate about building robust, scalable, and efficient solutions that are tailored to meet evolving industry demands.
   <br />
