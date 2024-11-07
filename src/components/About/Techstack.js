@@ -6,9 +6,10 @@ import {
   DiSwift,
   DiAws,
   DiDocker,
+  TbBluetooth,
   DiReact,
   DiNodejs,
-  DiMongodb,
+  DiJenkins,
   DiPython,
   DiGit,
   DiJava,
@@ -16,8 +17,10 @@ import {
 import {
   SiRedis,
   SiFirebase,
+  SiGithubactions,
+  SiGradle,
   SiNextdotjs,
-  SiSolidity,
+  SiBluetooth,
   SiPostgresql,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
@@ -27,8 +30,14 @@ import { TbBrandKotlin } from "react-icons/tb";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+        <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
+      </Col>
          <Col xs={4} md={2} className="tech-icons">
         <TbBrandKotlin />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGradle />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiSwift />
@@ -43,13 +52,10 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiBluetooth />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiJenkins />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiDocker />
@@ -61,13 +67,10 @@ function Techstack() {
         <DiAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiGithubactions />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
       </Col>
     </Row>
   );
