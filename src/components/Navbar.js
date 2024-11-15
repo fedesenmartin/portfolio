@@ -37,7 +37,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="/portfolio" className="d-flex">
         <div style={{ color: 'rgb(175, 94, 228)', fontSize: '24px', fontWeight: 'bold' }}>
             FS
           </div>
