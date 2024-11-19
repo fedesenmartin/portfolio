@@ -48,7 +48,7 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Aviation trainig"
+              title="Aviation training"
               description="Developed landing page and Improved software tools for a flight school, optimizing workflows for scheduling and student management. Worked with PHP and AWS to ensure scalability and reliability."
               // ghLink="https://github.com/fedesenmartin/Editor.io"
               demoLink="https://ceap.com.ar"              
